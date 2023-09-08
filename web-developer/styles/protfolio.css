@@ -1,22 +1,11 @@
-/* nav related styles */
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    justify-content: space-between;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-.nav-title {
-
-    font-family: Open Sans;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
 }
 
 .text-primary {
@@ -26,7 +15,6 @@ body {
 nav>ul {
     display: flex;
     align-items: center;
-
 }
 
 nav li {
@@ -42,119 +30,10 @@ nav a {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
     color: white;
     font-size: 20px;
+
     font-weight: 700;
-    padding: 15px 35px;
-}
 
-.header {
-    background-color: #FFF8F3;
-    background-image: url(../Hardy/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
 }
-
-.banner {
-    padding: 30px 0px 0px 250px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.banner .profile-pic {
-    width: 500px;
-}
-
-.banner-1 {
-    font-size: 50px;
-    color: #474747;
-    margin-bottom: 1px;
-}
-
-.banner-contant {
-    max-width: 500;
-}
-
-.banner-title {
-    font-size: 85px;
-    font-weight: 700;
-    color: #181818;
-    margin-top: 1px;
-    margin-bottom: 20px;
-}
-
-.banner-description {
-    margin-top: 5px;
-}
-
-.about {
-    padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0;
-}
-
-.section-title {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.section-description {
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-}
-
-main {
-    max-width: 1140px;
-    margin: 0 auto
-}
-
-.about-info-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.about-info {
-    text-align: center;
-}
-
-#what-i-do-description {
-    padding: 30px 150px;
-}
-
-.skills-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 24px;
-}
-
-.skill {
-    padding: 33px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
-
-.skill-description {
-    color: #757575;
-}
-
-main section {
-    margin-top: 130px;
-}
-
-.resume-container {
-    display: flex;
-    gap: 50px;
-}
-
-.resume-column-title {
-    color: var(--dark-02, #474747);
-    font-size: 30px;
-    font-weight: 700;
-  }
