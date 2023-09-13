@@ -35,15 +35,17 @@ nav a {
     color: white;
     font-size: 20px;
     font-weight: 700;
+    width: 160px;
+height: 64px;
 
 }
 
 .header {
     background-color: ;
     background-color: #FFF8F3;
-    background-image: url(../Hardy/header_bg.png);
+    background-image: url(../Hardy/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
